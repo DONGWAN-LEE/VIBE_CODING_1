@@ -98,11 +98,9 @@ npm run start:dev
 ```
 npm run start:dev
     │
-    ├─ .env 없음 → Setup Wizard 폼 바로 진입
+    ├─ .env 없음 → Setup Wizard 자동 실행 (http://localhost:4321)
     │
-    └─ .env 있음 → 선택 화면
-                    ├─ "기존 설정으로 시작" → NestJS 앱 부팅
-                    └─ "Setup Wizard 진입" → 기존 값 프리필 → 수정 가능
+    └─ .env 있음 → NestJS 앱 바로 부팅 (Setup Wizard 건너뜀)
 ```
 
 Setup Wizard 처리 순서:
@@ -373,3 +371,4 @@ test/
 ## 라이선스
 
 UNLICENSED
+
